@@ -1,0 +1,11 @@
+package ex06;
+
+public class Printer {
+
+	private Document document;
+
+	public Printer(Document document) {
+		this.document = document;
+	}
+	
+}

@@ -1,0 +1,30 @@
+package com.simple.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/request") // 클래스의 requestMapping 은 메서드의 요청경로를 묶어서 사용 합니다.
+public class RequestController {
+
+//	@RequestMapping("/req_ex01")
+//	public String req_ex01() {
+//		
+//		System.out.println("실행됨");
+//		
+//		return "request/req_ex01";
+//	}
+	
+//	void형 메서드는 들어오는 경로자체가 뷰 리졸버로 돌아가게 됩니다.
+	@RequestMapping("/req_ex01")
+	public void req_ex01() {
+		
+	}
+	
+	// basic01요청
+	@RequestMapping("/basic01")
+	public void basic01() {
+		
+	}
+	
+}

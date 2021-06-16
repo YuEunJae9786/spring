@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Wed Jun 16 17:44:44 KST 2021
+org.eclipse.jst.jee.server\:SpringTest=D\:\\course\\spring\\apache-tomcat-9.0.45\\wtpwebapps\\SpringTest
+org.eclipse.jst.jee.server\:SpringMake=D\:\\course\\spring\\apache-tomcat-9.0.45\\wtpwebapps\\SpringMake
+org.eclipse.jst.jee.server\:SpringBasic=D\:\\course\\spring\\apache-tomcat-9.0.45\\wtpwebapps\\SpringBasic
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\YuEunJae\\.m2\\repository\\org\\springframework\\spring-web\\5.0.7.RELEASE\\spring-web-5.0.7.RELEASE.jar=D\:\\course\\spring\\apache-tomcat-9.0.45\\wtpwebapps\\SpringTest\\WEB-INF\\lib\\spring-web-5.0.7.RELEASE.jar

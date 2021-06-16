@@ -1,0 +1,39 @@
+package com.simple.controller;
+
+import java.util.Date;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+@RequestMapping("/response")
+public class ResponseController {
+	
+//	res_ex01 화면처리
+	@RequestMapping("/res_ex01")
+	public void res_ex01() {
+		
+	}
+	
+//	Model 전달자 - 화면으로 전달할 데이터를 addAttribute(키, 값)
+	@RequestMapping("/res_ex02")
+	public String res_ex02(Model model) {
+		
+		model.addAttribute("serverTime", new Date());
+		model.addAttribute("name", "홍길동");
+		
+		return "response/res_ex02";
+	}
+	
+//	ModelAndView 방법
+	@RequestMapping("/res_ex03")
+	public ModelAndView res_ex03() {
+		
+		
+	}
+	
+	
+
+}

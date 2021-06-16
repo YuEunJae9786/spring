@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"  
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans  
+http://www.springframework.org/schema/beans/spring-beans.xsd"
+>
+
+	<!-- id는 고유하게 사용할 수 있는 이름, class는 실제 사용할 객체의 경로 -->
+	<bean id="test" class="ex01.SpringTest"></bean>
+	
+	<!-- DI-생성자 주입 -->
+	<bean id="chef" class="ex02.Chef"></bean>
+	
+	<bean id="hotel" class="ex02.Hotel">
+		<constructor-arg ref="chef"></constructor-arg>
+	</bean>
+
+
+</beans>

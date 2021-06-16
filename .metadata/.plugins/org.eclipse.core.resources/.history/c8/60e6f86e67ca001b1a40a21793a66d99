@@ -1,0 +1,19 @@
+package ex04;
+
+public class Airplane {
+	
+	private IBettery bettery;
+
+	public IBettery getBettery() {
+		return bettery;
+	}
+
+	public void setBettery(IBettery bettery) {
+		this.bettery = bettery;
+	}
+	
+	
+	
+	
+
+}

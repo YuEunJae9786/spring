@@ -1,0 +1,11 @@
+package ex08;
+
+/*
+ * xml 설정파일을 자바파일로 사용하기.
+ */
+
+public class JavaConfig {
+
+	
+	
+}
