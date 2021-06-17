@@ -1,9 +1,0 @@
-package ex02;
-
-public class Hotel {
-	
-	public void cooking() {
-		System.out.println("요리중");
-	}
-
-}

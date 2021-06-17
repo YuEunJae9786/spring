@@ -8,5 +8,6 @@ public interface ScoreDAO {
 	
 	public void regist(ScoreVO vo);
 	public List<ScoreVO> getList();
-
+	public void delete(int num); // 삭제
+	
 }

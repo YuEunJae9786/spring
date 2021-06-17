@@ -20,7 +20,7 @@
 	</beans:bean>
 	
 	<!-- 해당 패키지를 읽어서 @Controller가 붙어 있는 클래스를 bean(객체)로 생성 -->
-	<context:component-scan base-package="com.simple.controller" />
+	<context:component-scan base-package="com.*.controller" />
 	<!-- 해당 패키지를 읽어서 @Service가 붙어 있는 클래스를 bean(객체)로 생성 -->
 	<context:component-scan base-package="com.*.service" />
 	<!--

@@ -1,6 +1,0 @@
-package ex04;
-
-public interface IBettery {
-	
-	public void energy();
-}
